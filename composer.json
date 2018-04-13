@@ -1,0 +1,20 @@
+{
+  "name" : "Tisseo/test-bundle",
+  "type" : "symfony-bundle",
+  "description" : "Test Bundle",
+  "keywords" : ["Test bundle NMM"],
+  "homepage": "NC",
+  "license": "AGPLv3",
+  "authors" : [
+    {
+      "name" : "Pierre-Yves Claitte",
+      "email" : "pierre.cl@gmail.com"
+    }
+  ],
+  "require" : {
+    "php": ">=5.4.3"
+  },
+  "autoload" : {
+    "psr-4" : { "Tisseo\\TestBundle\\" : "" }
+  }
+}

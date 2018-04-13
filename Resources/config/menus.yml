@@ -1,0 +1,15 @@
+'tisseo.testbundle.menu.menu_1':
+    route: 'tisseo_testnmm_menu1'
+    rights:
+        - 'BUSINESS_TEST_PERM'
+    submenus:
+        'tisseo.testbundle.menu.menu_a':
+            route: 'tisseo_testnmm_menu_a'
+            rights: ['BUSINESS_TEST_PERM']
+        'tisseo.testbundle.menu.menu_b':
+            route: 'tisseo_testnmm_menu_b'
+            rights: ['BUSINESS_TEST_PERM']
+'tisseo.testbundle.menu.menu_2':
+    route: 'tisseo_testnmm_menu2'
+    rights: ['BUSINESS_TEST_PERM']
+    submenus: null

@@ -1,0 +1,19 @@
+tisseo_testnmm_homepage:
+    path:     /
+    defaults: { _controller: TisseoTestBundle:Default:index }
+
+tisseo_testnmm_menu1:
+    path:     /test-menu1
+    defaults: { _controller: TisseoTestBundle:Default:menu1 }
+
+tisseo_testnmm_menu2:
+    path:     /test-menu2
+    defaults: { _controller: TisseoTestBundle:Default:menu2 }
+
+tisseo_testnmm_menu_a:
+    path:     /test-edit
+    defaults: { _controller: TisseoTestBundle:Default:edit }
+
+tisseo_testnmm_menu_b:
+    path:     /test-delete
+    defaults: { _controller: TisseoTestBundle:Default:delete }

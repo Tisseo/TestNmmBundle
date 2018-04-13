@@ -1,0 +1,5 @@
+parameters:
+    testbundle.permissions:
+        BUSINESS_TEST_PERM:
+            label: Un label
+            description: un descriptif

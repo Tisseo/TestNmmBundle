@@ -1,0 +1,23 @@
+services:
+    sam.business_module.testbundle:
+        class: 'Tisseo\TestBundle\Permission\BusinessPermissionModule'
+        arguments: ['%testbundle.permissions%']
+        public: false
+    sam.business_permission_manager.testbundle:
+        class: 'Tisseo\TestBundle\Permission\BusinessPermissionManager'
+        arguments: ['@sam.business_module.testbundle']
+        public: false
+    sam.business_perimeter_manager.testbundle:
+        class: 'Tisseo\TestBundle\Perimeter\BusinessPerimeterManager'
+        arguments: ['@nmm.perimeter_manager']
+        public: false
+    sam.menu_manager.testbundle:
+        class: 'Tisseo\TestBundle\Menu\MenuManager'
+        arguments: ['@service_container']
+        public: false
+    sam.business_component.testbundle:
+        class: 'Tisseo\TestBundle\Component\BusinessComponent'
+        arguments: ['@sam.business_permission_manager.testbundle', '@sam.business_perimeter_manager.testbundle', '@sam.menu_manager.testbundle']
+        public: false
+        tags:
+            - { name: 'sam.app_business_component', canonical_app_name: 'testbundle' }
