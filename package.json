@@ -1,0 +1,33 @@
+{
+  "name": "test-bundle",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/encore dev",
+    "dev-watch": "./node_modules/.bin/encore dev --watch",
+    "build": "./node_modules/.bin/encore production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tisseo/TestNmmBundle.git"
+  },
+  "keywords": [],
+  "author": "Pierre-Yves Claitte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tisseo/TestNmmBundle/issues"
+  },
+  "homepage": "https://github.com/Tisseo/TestNmmBundle#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "ajv": "^6.4.0"
+  },
+  "devDependencies": {
+    "@symfony/webpack-encore": "^0.20.0",
+    "file-loader": "^1.1.11",
+    "node-sass": "^4.8.3",
+    "sass-loader": "^6.0.7"
+  }
+}
