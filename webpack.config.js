@@ -15,7 +15,8 @@ Encore
     .enableSassLoader(function(sassOptions) {}, { // allow sass/scss files to be processed
         resolveUrlLoader: false
     })
-    .addEntry('test-bundle', './Resources/src/js/index.js')
+    .addEntry('test-bundle', './Resources/src/js/index.ts')
+    .enableTypeScriptLoader()
     .enableSourceMaps(!Encore.isProduction())
 ;
 
