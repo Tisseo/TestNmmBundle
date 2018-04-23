@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "./node_modules/.bin/encore dev",
     "dev-watch": "./node_modules/.bin/encore dev --watch",
-    "build": "./node_modules/.bin/encore production"
+    "build": "./node_modules/.bin/encore production",
+    "sass-watch": "sass --watch Resources/src/sass:Resources/src/css"
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,7 @@
     "ajv": "^6.4.0"
   },
   "devDependencies": {
-    "@symfony/webpack-encore": "^0.20.0",
+    "@symfony/webpack-encore": "^0.20.1",
     "@types/jquery": "^3.3.1",
     "node-sass": "^4.8.3",
     "sass-loader": "^6.0.7",

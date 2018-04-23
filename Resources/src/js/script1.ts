@@ -1,4 +1,4 @@
-import "../sass/main.scss";
+
 
 $(function() {
     $('.test-bundle-test').on('click',function () {

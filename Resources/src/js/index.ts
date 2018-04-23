@@ -1,3 +1,9 @@
+require("../css/main.css");
+//var a = require("!!css-loader!../css/main.css");
+require("../css/main2.css");
+//var b = require("!!css-loader!../css/main2.css");
+
+//console.log('test : ' + exportedStyles.toString());
 // Test ES6. Les lignes ci-dessous seront converties en ES5
 const httpOptions = { timeout: 2000, isCache: true };
 const { timeout: httpTimeout, isCache: httpCache } = httpOptions;

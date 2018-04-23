@@ -12,9 +12,11 @@
 - build : génération des assets pour la production.
 - dev :  génération des assets pour le developpement.
 - dev-watch : "surveillance" des fichiers pour générer les assets à la volée.
+- sass-watch : "surveillance" des fichiers sass pour générer les css.
 
 La commande **npn run [build|dev|dev-watch]** lance la generation des assets et les stocks dans
-**./Resources/public/dist**
+**./Resources/public/dist** (s'assurer au préalable d'avoir généré les css à partir des sass **sass-watch**)
+
 
 ## A la racine du projet 
 * Créer un alias vers les assets du bundle dans le fichier **webpack.config.js**
