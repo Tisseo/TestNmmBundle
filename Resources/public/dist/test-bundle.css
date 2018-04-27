@@ -1,0 +1,18 @@
+.test-bundle-test p {
+  color: yellow;
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-image: url(/bundles/tisseotest/dist/images/bg.a4d9a72a.png); }
+
+/*# sourceMappingURL=main.css.map */
+.test-bundle-test2 p {
+  color: blue;
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-image: url(/bundles/tisseotest/dist/images/bg.a4d9a72a.png); }
+
+/*# sourceMappingURL=main2.css.map */
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9SZXNvdXJjZXMvc3JjL2Nzcy9tYWluLmNzcyIsIndlYnBhY2s6Ly8vLi9SZXNvdXJjZXMvc3JjL2Nzcy9tYWluMi5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxjQUFjO0VBQ2QsZUFBZTtFQUNmLGFBQWE7RUFDYixjQUFjO0VBQ2QsZ0RBQTBDLEVBQUU7O0FBRTlDLG9DQUFvQztBQ1BwQztFQUNFLFlBQVk7RUFDWixlQUFlO0VBQ2YsYUFBYTtFQUNiLGNBQWM7RUFDZCxnREFBMEMsRUFBRTs7QUFFOUMscUNBQXFDIiwiZmlsZSI6InRlc3QtYnVuZGxlLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi50ZXN0LWJ1bmRsZS10ZXN0IHAge1xuICBjb2xvcjogeWVsbG93O1xuICBkaXNwbGF5OiBibG9jaztcbiAgd2lkdGg6IDIwMHB4O1xuICBoZWlnaHQ6IDIwMHB4O1xuICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoXCIuLi9pbWFnZXMvYmcucG5nXCIpOyB9XG5cbi8qIyBzb3VyY2VNYXBwaW5nVVJMPW1haW4uY3NzLm1hcCAqL1xuXG5cblxuLy8gV0VCUEFDSyBGT09URVIgLy9cbi8vIC4vUmVzb3VyY2VzL3NyYy9jc3MvbWFpbi5jc3MiLCIudGVzdC1idW5kbGUtdGVzdDIgcCB7XG4gIGNvbG9yOiBibHVlO1xuICBkaXNwbGF5OiBibG9jaztcbiAgd2lkdGg6IDIwMHB4O1xuICBoZWlnaHQ6IDIwMHB4O1xuICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoXCIuLi9pbWFnZXMvYmcucG5nXCIpOyB9XG5cbi8qIyBzb3VyY2VNYXBwaW5nVVJMPW1haW4yLmNzcy5tYXAgKi9cblxuXG5cbi8vIFdFQlBBQ0sgRk9PVEVSIC8vXG4vLyAuL1Jlc291cmNlcy9zcmMvY3NzL21haW4yLmNzcyJdLCJzb3VyY2VSb290IjoiIn0=*/
